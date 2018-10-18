@@ -1,11 +1,19 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,700|Open+Sans");
+
+#logo {
+  color: #fff;
+  position: absolute;
+  margin: 0 auto;
+  text-align: center;
+}
+
 html {
   overflow-x: hidden;
 }
 
 body {
-  background: #fff;
+  background: #000;
   font-size: 14px;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
@@ -45,7 +53,7 @@ p {
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
   margin: 0px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 ul, ol {
@@ -310,9 +318,17 @@ a.back-to-top:hover, a.back-to-top:focus {
   animation-name: fadeIn;
 }
 
+.logo {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
 .navbar-brand {
-  position: relative;
-  padding: 0px;
+  position: absolute;
+  padding: 25px;
+  margin-top: 80px;
 }
 
 .top-nav-collapse {

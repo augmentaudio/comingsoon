@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>UnderScore Technology - Coming Soon Template</title>
+    <title>UnderScore Technology - Coming Soon</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
@@ -28,28 +28,36 @@
   <body>
 
     <div class="bg-wraper overlay has-vignette">
-      <div id="example" class="slider opacity-50 vegas-container" style="height: 983px;"></div>
+      <div id="example" class="slider opacity-50 vegas-container" style="height: 983px;">
+          <a href="/"><img class="logo" src="assets/images/logo.png" alt=""></a>
+      </div>
     </div>
+
+
 
     <!-- Coundown Section Start -->
     <section class="countdown-timer">
       <div class="container">
+
         <div class="row text-center">
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="heading-count">
-              <h2>WE ARE LAUNCHING IN</h2>
+              <h2>A superb web agency launching in ...</h2>
             </div>
           </div>
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="row time-countdown justify-content-center">
               <div id="clock" class="time-count"></div>
             </div>
-            <p>
-            UnderScore Technology Ltd.
-            </p>
-            <div class="button-group">
-              <a href="#" class="btn btn-common">Notify Me</a>
-              <a href="#" class="btn btn-border">About Us</a>
+            <div class="subscribe-form text-center">
+              <h4>Subscribe to our newsletter</h4>
+
+              <form class="form-inline" action="https://formspree.io/xprvzylx" method="POST">
+                <input name="email" class="form-control btn-rounded" placeholder="Email Address" type="email">
+                <input type="hidden" name="_next" value="/thanks.html" />
+              <input type="text" name="_gotcha" style="display: none">
+              <button class="btn btn-common btn-round" type="submit" type="submit">Send</button>
+            </form>
             </div>
             <div class="social mt-4">
               <a class="facebook" href="#"><i class="lni-facebook-filled"></i></a>
