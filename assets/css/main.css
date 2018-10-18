@@ -5,7 +5,6 @@
   color: #fff;
   position: absolute;
   margin: 0 auto;
-  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -323,7 +322,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .navbar-brand {
@@ -650,7 +649,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #fff;
   position: absolute;
   margin: 0 auto;
-  top: 28%;
+  top: 20%;
   text-align: center;
   width: 100%;
 }
